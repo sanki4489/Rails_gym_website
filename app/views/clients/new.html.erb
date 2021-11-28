@@ -1,0 +1,32 @@
+<div class="container">
+<form style="margin-right: 25%; margin-left: 25%;">
+<h2>Register yourself</h2>
+<div class="border border-primary" style="padding: 3%">
+<%= form_for(@client) do |f| %>
+    <%= f.label :name, class:"form-label" %>
+    <%= f.text_field :name, class: "form-control" %>
+    <%= f.label :phone, class:"form-label" %>
+    <%= f.text_field :phone, class: "form-control" %>
+    <%= f.label :address, class:"form-label" %>
+    <%= f.text_field :address, class: "form-control" %>
+    <%= f.label :weight, class:"form-label" %>
+    <%= f.text_field :weight, class: "form-control" %>
+    <%= f.label :level, class:"form-label" %>
+    <%= f.text_field :level, class: "form-control" %>
+    <%= f.label :sex, class:"form-label" %>
+    <%= f.text_field :sex, class: "form-control" %>
+    <%= f.label :height, class:"form-label" %>
+    <%= f.text_field :height, class: "form-control" %>
+    <%= f.label :age, class:"form-label" %>
+    <%= f.text_field :age, class: "form-control" %>
+    <%= f.label :goals, class:"form-label" %>
+    <%= f.text_field :goals, class: "form-control" %>
+    <%= f.label :email, class:"form-label" %>
+    <%= f.text_field :email, class: "form-control" %>
+    <%= f.label :timings, class:"form-label" %>
+    <%= f.text_field :timings, class: "form-control" %>
+    <%= f.submit "Register", class: "btn btn-primary" %>
+<% end %>
+</div>
+</form>
+</div>

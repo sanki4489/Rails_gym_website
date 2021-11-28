@@ -1,0 +1,31 @@
+<div class="container">
+<h2>We have various plans depending on you need and time.</h2>
+<p>Choose one plan to register.</p>
+<div class="row align-items-start" style="margin: auto;">
+<div class="card col" style="width: 18rem;">
+  <%= image_tag "emoji", class: "card-img-top img-margin", alt: "basic", size: "25x120" %>
+  <div class="card-body">
+    <h5 class="card-title">Basic plan</h5>
+    <p class="card-text">Simple plan for just 1000RS a month. Basic plan for begineers with minimum support.</p>
+     <%= link_to "Purchase", new_user_path, class: "btn btn-primary purchase-btn" %>
+  </div>
+</div>
+<div class="card col" style="width: 18rem;">
+  <%= image_tag "premium", class: "card-img-top img-margin", alt: "basic", size: "25x120" %>
+  <div class="card-body">
+    <h5 class="card-title">Premium plan</h5>
+    <p class="card-text">Premium plan for our premium customers at just 10000RS a month.</p>
+    <%= link_to "Purchase", new_user_path, class: "btn btn-primary purchase-btn" %>
+  </div>
+</div>
+<div class="card col" style="width: 18rem;">
+  <%= image_tag "vip", class: "card-img-top img-margin", alt: "basic", size: "30x120" %>
+  <div class="card-body">
+    <h5 class="card-title">V.I.P plan</h5>
+    <p class="card-text">VIP plan for our valuable coustemrs, get access to all perks just 100000RS per moth.</p>
+     <%= link_to "Purchase", new_user_path, class: "btn btn-primary purchase-btn" %>
+  </div>
+</div>
+
+</div>
+</div>
